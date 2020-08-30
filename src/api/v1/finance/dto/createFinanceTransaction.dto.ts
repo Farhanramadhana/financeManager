@@ -16,6 +16,5 @@ export class CreateFinanceTransactionDto {
   @ApiProperty()
   financeAccount: string;
 
-  @ApiProperty()
   user?: string;
 }

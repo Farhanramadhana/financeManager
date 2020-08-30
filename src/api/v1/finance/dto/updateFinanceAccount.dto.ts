@@ -16,6 +16,5 @@ export class UpdateFinanceAccountDto {
   @ApiProperty()
   description?: string;
 
-  @ApiProperty()
   user?: string;
 }

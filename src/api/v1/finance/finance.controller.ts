@@ -56,7 +56,7 @@ export class FinanceController {
     }
   }
 
-  @Post('account/create')
+  @Post('account')
   async createFinanceAccount(
     @Request() req,
     @Body() body: CreateFinanceAccountDto,
@@ -78,7 +78,7 @@ export class FinanceController {
     }
   }
 
-  @Put('account/update')
+  @Put('account')
   async updateFinanceAccount(
     @Request() req,
     @Body() body: UpdateFinanceAccountDto,
